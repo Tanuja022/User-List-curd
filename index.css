@@ -1,0 +1,30 @@
+body{
+    margin: 0 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    height: 30px;
+    width: 30%;
+
+}
+button{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+    border: none;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(148, 240, 145);
+    color: black;
+}
+
+i{
+    cursor: pointer;
+    
+}
+#msg{
+    color: red;
+}

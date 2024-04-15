@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <h1>User List</h1>
+    <div class="container">
+        <div class="left">
+            <form id="form">
+                <label>Add user here</label>
+                <br><br>
+                <input type="text" id="input">
+                <br><br>
+                <div id="msg"></div>
+                <button type="submit">Add User</button>   
+            </form>
+        </div>
+
+        <div class="right">
+            <h3>User List is Here.</h3>
+            <div id="posts">
+                <div>
+                    <p>Tanuja K</p>
+                    <span class="options">
+                        <i onClick="editpost(this)" class="fa fa-edit"></i>
+                        <i class="fa fa-trash-alt"></i>
+                    </span>
+                </div>
+                <div>
+                    <p>Ashwini K</p>
+                    <span class="options">
+                        <i onClick="editpost(this)" class="fa fa-edit"></i>
+                        <i class="fa fa-trash-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
